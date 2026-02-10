@@ -16,7 +16,7 @@ function giorno(nome) {
         console.log("buongiorno " + nome)
     } else if (time <= 17) {
         console.log("buon pomeriggio " + nome)
-    } else (time > 17); {
+    } else {
         console.log("buonasera " + nome)
     }
     return name
