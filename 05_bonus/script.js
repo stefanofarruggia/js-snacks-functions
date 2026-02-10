@@ -9,10 +9,21 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function giorno(nome) {
+    let date = new Date();
+    let time = date.getHours();
+    if (time <= 13) {
+        console.log("buongiorno " + nome)
+    } else if (time <= 17) {
+        console.log("buon pomeriggio " + nome)
+    } else (time > 17); {
+        console.log("buonasera " + nome)
+    }
+    return name
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+giorno(name)
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
